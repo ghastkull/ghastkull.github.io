@@ -1,0 +1,98 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #01102c;
+    color: #F1AD02;
+}
+
+nav {
+    text-align: center;
+    font-size: x-large;
+    width: 66%;
+    float: left;
+    border-bottom: 1px solid #F1AD02;
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+nav a {
+    margin: 20px;
+}
+nav a:link, a:link {
+    color: blue;
+}
+nav a:visited, a:visited {
+    color: blue;
+}
+nav a:hover, a:hover {
+    color: #F1AD02;
+}
+
+.flag {
+    float: right;
+}
+
+header {
+    clear: both;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.caption {
+    margin-top: 0;
+    padding-top: 0;
+    font-style: italic;
+}
+
+img {
+    border: 1px solid #F1AD02;
+}
+
+section {
+    float: left;
+    width: 69%;
+    margin-bottom: 10px;
+}
+
+.textcontent {
+    padding: 15px;
+}
+
+table, th, td {
+    border: 1px solid #5e4508;
+    text-align: center;
+    padding: 6px;
+}
+table {
+    margin-left: 10px;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    border-left: 1px solid #5e4508;
+    text-align: center;
+}
+
+li {
+    text-align: left;
+}
+
+form {
+    clear: both;
+    position: relative;
+    border-top: 1px solid #5e4508;
+}
+
+#textbox {
+    position: absolute;
+    width: 50%;
+    left: 15px;
+    margin-top: 15px;
+}
+
+#contactinfo {
+    position: absolute;
+    width: 50%;
+    right: 15px;
+    line-height: 3;
+    margin-top: 15px;
+}
