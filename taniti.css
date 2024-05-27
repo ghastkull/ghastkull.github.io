@@ -1,8 +1,76 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #a5f2ff;
     color: #000000;
 }
+
 header {
     text-align: center;
+    background-color: #a5f2ff;
+    width: 100vw;
+}
+
+.title h3 {
+    padding-top: 10px;
+}
+
+.title h1 {
+    font-size: 5em;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+nav a {
+    padding: 0.5em 1em;
+    color: #000000;
+}
+
+nav a:visited {
+    color:#000000;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.tanitihero {
+    width: 100vw;
+}
+
+main {
+    background-image: url(assets/waves.jpg);
+    width: 100vw;
+}
+
+.content {
+    background-color: rgba(220, 238, 255, .75);
+    margin: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: solid black 1px;
+}
+
+main a {
+    color: blue;
+}
+main a:hover {
+    color: rgb(0, 153, 255);
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    line-height: 30px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
 }
